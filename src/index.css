@@ -1,0 +1,87 @@
+/* .fb::before {
+   color:green;
+   background-color: aqua
+}
+
+.fb::after {
+   color: green;
+   background-color: yellow;
+   margin-bottom: 15px;
+}
+
+article {
+   width: 350px;
+}
+
+article p {
+   border: 1px solid #494444cc;
+   padding: 15px;
+}
+
+article::before {
+   border: 1px solid rgb(126, 182, 35);
+   content: 'Element Before';
+   padding: 15px;
+   /* margin: 5px px; */
+/* } */
+/* 
+article::after {
+   border: 1px solid rgb(7, 95, 80);
+   content: 'Element After';
+   padding: 15px;
+}
+
+article p, 
+article::before, 
+article::after {
+   display: inline-block;
+   /* border: 1px solid rgb(7, 95, 80); */
+   /* float: left;
+   width: 80px;
+   height: 80px;
+   margin: 0;
+   margin-right: 10px;
+}
+
+.container {
+   width:400px;
+   height: 200px;
+   padding: 20px;
+   background: yellow;
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   margin-top: -120px;
+   margin-left: -220px;
+   display: table;                            
+} */
+
+/*.box {
+   display: table-cell;
+   text-align: center;
+   vertical-align: middle;
+   background: orange;
+   border: 10px solid rgba(0,0,0,0.2);
+ 
+}*/
+
+.square {
+   background: #fff;
+   border: 1px solid #999;
+   float: left;
+   font-size: 24px;
+   font-weight: bold;
+   line-height: 34px;
+   height: 34px;
+   margin-right: -1px;
+   margin-top: -1px;
+   padding: 0;
+   text-align: center;
+   width: 34px;
+}
+
+.board-row:after{
+   clear: both;
+   content: '';
+   display: table;
+}
